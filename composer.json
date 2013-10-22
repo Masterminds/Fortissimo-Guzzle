@@ -1,0 +1,24 @@
+{
+  "name": "masterminds/fortissimo-guzzle",
+  "description": "Guzzle commands for the Fortissimo framework.",
+  "require": {
+      "php": ">=5.3.2"
+  },
+  "authors": [
+    {
+      "name": "Matt Butcher",
+      "email": "technosophos@gmail.com"
+    },
+    {
+      "name": "Matt Farina",
+      "email": "matt@mattfarina.com"
+    }
+  ],
+  "require": {
+    "guzzle/guzzle": "~3.7"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-0": { "Fortissimo\\Guzzle": "src/" }
+  }
+}
